@@ -1,2 +1,3 @@
-# ST0257-Operative-Systems
+# ST0257 Operating Systems
+
 This repository contains some of the challenges and projects made in EAFIT's Operative Systems subject
