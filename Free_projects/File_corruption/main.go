@@ -6,6 +6,7 @@ import (
     "os"
     "strings"
 )
+
 func main(){
     files,err := ioutil.ReadDir("./")
     if err != nil{
@@ -20,11 +21,11 @@ func main(){
         }
     }
 }
+
 func start(filename string){
     path := filename
     removeLine(path,0)
 }
-
 
 func removeLine(path string, lineNumber int){
     file,err := ioutil.ReadFile(path)
